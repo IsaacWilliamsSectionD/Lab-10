@@ -1,0 +1,94 @@
+/* Importing a new font for a fresh look */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+/* General Body Styling */
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #f5f5f5;
+  color: #4b2e1c;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #4b2e1c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.nav-link {
+  color: #ffb347 !important;
+}
+
+/* Jumbo Section Styling */
+.jumbotron {
+  background-color: #ffb347;
+  color: #4b2e1c;
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.jumbotron .btn-primary {
+  background-color: #d2691e;
+  border-color: #d2691e;
+}
+
+.jumbotron .btn-primary:hover {
+  background-color: #c16017;
+  border-color: #c16017;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #4b2e1c;
+}
+
+.card-text {
+  color: #774c31;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-primary {
+  color: #4b2e1c;
+  border-color: #4b2e1c;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4b2e1c;
+  color: #ffb347;
+}
+
+/* Gallery Styling */
+.img-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.img-fluid {
+  object-fit: cover;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Pagination */
+.pagination .page-link {
+  color: #4b2e1c;
+}
+
+.pagination .page-link:hover {
+  color: #ffb347;
+  background-color: #f1e1d0;
+}
